@@ -1,0 +1,41 @@
+ body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .grid-item {
+      background: #4caf50;
+        color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .second{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 25px;
+    }
+    .grid{
+        text-align: center;
+        background-color:blueviolet;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    body{
+        margin: 2cm;
+       background-color: rgb(229, 221, 221);
+    }
+    h1{
+        color: black;
+    }
+    h2{
+        color: black;
+    }
+    
